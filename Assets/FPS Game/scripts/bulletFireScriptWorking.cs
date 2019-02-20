@@ -52,7 +52,6 @@ public class bulletFireScriptWorking : MonoBehaviour
                 bullets[i].velocity = transform.forward * bulletSpeed;
                 bullets[i].gameObject.SetActive(true);
                 break;
-
             }
         }
 

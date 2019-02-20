@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class CoinScript : MonoBehaviour
 {
-    public float speed = 10f;
     void Update()
     {
-        transform.Rotate(90 * Time.deltaTime, 0, 0);
+        transform.Rotate(90 * Time.deltaTime, 90 * Time.deltaTime, -90 * Time.deltaTime);
     }
 
     public string tagname = "Player";
